@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    /* Adapitando para sensibilidade   */
+}
+
+body {
+    /* Cor e estilo do fundo */
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+
+/* Centralizar a caixa  */
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin-top: -11rem;
+
+}
+
+body, button, input{
+
+    font-family: "DM Sans", sans-serif;
+}
+
+button {
+    background-color: #7879F1;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+
+    /*mãozinha no mauser quando passar no button*/
+    cursor: pointer;
+
+    transition: background .3s;
+}
+
+button:hover {
+    background-color: #4949cf;
+}
+
+.hide {
+    display: none;
+}
+
+    /*screen1*/
+
+main {
+    /* Fundo - Cor, medidas etc.. */
+    background: #FFFFFF;
+    box-shadow: 0 .2px .4px rgba(0, 0, 0, 0.1);
+    border-radius: .6px;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    /* Largura Minima entre 2 valores */
+    width: min(42.8rem, 90%);
+
+    text-align: center;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    /* Fonte da letra */
+    font-size: 2.4rem;
+    /* Margin entre as frases */
+    margin-bottom: 1.6rem;
+}
+
+h1, p {
+color:#34355B;   
+}
+p {
+    opacity: .8;
+}
+
+/* 
+Todos os elementos que tem dentro */
+form {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center; /*Centralizar os button*/
+}
+
+/* Formatando o buttan e o input */
+input, button {
+    border: none;
+    padding: 1.6rem;
+}
+
+input { 
+    background-color: #DCE2E9;
+    width: 7rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+/*screen2*/
+h2 {
+    font-size: 2.4rem;
+    font-weight: normal;
+
+  /*margin entre o button e a frase*/
+    margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+    border-radius: .4rem;
+}
+
